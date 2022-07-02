@@ -1,0 +1,149 @@
+@font-face {
+    font-family: fbold;
+    src: url(font/fbold.ttf);
+    font-weight: bold;
+}
+@font-face {
+    font-family: fregular;
+    src: url(font/fregular.ttf);
+    font-weight: 400;
+}
+
+body{
+    background-color: rgba(30,30,30,255);
+    font-family:fregular, sans-serif ;
+    color: white;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color:rgba(158,16,26,255);
+    padding: 5px 40px 20px 40px ;    
+}
+
+a , a:hover, a:focus{
+    text-decoration: none;
+    color: white;
+    background-color: transparent;
+}
+button{
+    background-color: rgba(30,30,30,255);
+    border: 0;
+    cursor: pointer;
+    color: white;
+    display: inline;
+    text-align: center;
+    border-radius: 4px;
+    line-height: 40px;
+    border-bottom: 2px solid #2c0101;
+    font-family: fbold , sans-serif;
+    width: 90px;
+}
+
+button:hover{
+    background-color: #2c0101;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px 50px 100px ;
+}
+.head img {
+    width: 90px;
+    border-radius: 2px;
+}
+.image img {
+    width: 400px;
+    height: 200px;
+}
+.container {
+    display: flex;
+    padding: 5px 100px 10px 100px ;
+}
+.text{
+    margin-right: 30px;
+}
+footer {
+    background-color:rgba(158,16,26,255) ;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+article{
+    padding: 0
+}
+article h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.random {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-evenly;
+    padding: 0px 500px 0px 500px;
+}
+.info img {
+    width: 150px;
+    border-radius: 5px;
+}
+.info{
+    margin: 10px;
+    padding: 15px;
+    display: grid;
+    border: 2px  solid ;
+    border-color: rgba(158,16,26,255);
+    border-radius: 5px;
+}
+.info p {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
+}
+.info:hover{
+    background-color: white;
+    color:rgba(158,16,26,255)  ;
+    border: 2px  solid rgba(30,30,30,255);
+    cursor: pointer;
+    transform: scale(1.09);
+    transition:all .1s ease;
+}
+
+.quote {
+    background-color: white;
+    color: rgba(158,16,26,255);
+    padding: 100px;
+    margin: 30px 0 30px 0;
+}
+.quote h4 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.call {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2c0101;
+    border-radius: 5px;
+    margin: 90px 100px 90px 100px;
+    padding: 15px;
+}
+.s h1 {
+    align-items: flex-start;
+    justify-content: left;
+}
+.call button {
+    background-color: #2c0101;
+    border:2px white solid;
+}
+
+.call button:hover {
+    background-color: white;
+    color: #2c0101;
+}
